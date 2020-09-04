@@ -1,0 +1,113 @@
+.monheader{
+    margin-bottom:5em ;
+}
+
+.descriptionCourte h1 {
+    margin-bottom: 0.8em;
+}
+
+.img{
+    background: #EBEDEE;
+    margin-bottom: 3em;
+    height: 100%;
+}
+
+.minia{
+    margin: 1em 0em 1em 0em;
+    width: 6em;
+}
+
+.imgPrincipale {
+    max-height: 700px;
+}
+
+.descriptionCourte{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.anotation{
+    color: #313131;
+    text-decoration: underline;
+    font-size: 90%;
+}
+
+
+.prix
+{
+    font-size: 1.4em;
+    color: #555555;
+    margin: 1.3em;
+    
+}
+
+.couleur{
+    max-width: 5rem;
+    width: 20%;
+    min-width: 3rem;
+    border-radius: 100%;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    box-shadow: 0px 4px 10px 0px rgb(112, 112, 112);
+}
+
+#taille{
+    border-color:black;
+    min-width: 15em;
+    margin-right: 1em;;
+    font-weight: 650;
+    height: 2em;
+}
+
+.qte{
+    width: 5em;
+    height: 2em;
+    border-color:black;
+    font-weight: 650;
+    justify-content: center;
+}
+
+.boutonAjoutPanier{
+    margin: 2.3em 1em 2.3em 1em;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    background:#E7BB83;
+    border: black;
+    padding: 1.8ex;
+}
+
+.fleche{
+    max-width: 3em;
+}
+
+.iconshop{
+    max-width: 1.8em;
+    align-items: baseline;
+}
+
+/* --------------- HOVER -------------------- */
+.minia:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.boutonpannier:hover{
+    color: #dddddd;
+    background-color: #023B64;
+    transition: all 0.8s;
+}
+.col-lg-6 li{
+    margin: 1em;
+}
+
+.col-lg-6 h2{
+    margin-bottom: 0.8em;
+    text-align: center;
+}
+
+.couleur:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}

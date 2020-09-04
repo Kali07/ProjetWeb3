@@ -1,0 +1,204 @@
+﻿/*Mise en forme de banniere + Formulaire */
+.section-Miracle
+{
+	font-family: arial, serif;
+	height: 80%;
+	font-family: arial, serif;
+	
+	display: flex;
+	background: white;
+	border-radius: 20px;
+	box-shadow: 5px 10px 15px black;
+	width: 50%;
+	min-width: 700px;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.banniere
+{	
+	min-width: 25%;
+	min-height: 100%;
+	background: url("../img/imgfond2.jpg");
+	background-size: 190%; 
+	border-radius: 10px 0 0 10px;
+}
+
+.formulaire
+{
+
+	max-width:700px;
+	padding: 20px;
+}
+
+.lesh1
+{
+	text-align: center;
+	font-size: 2.5em;
+	color: #E7BB83;
+	text-transform: uppercase;
+}
+
+/*A l'interieur de mon formulaire */
+.dejaclient
+{
+	font-size: 0.8em;
+}
+
+
+.labelisation
+{
+	display: inline-block;
+}
+
+.section-Miracle input
+{
+	display: inline-block;
+}
+
+.section-Miracle form p
+{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	color: #E7BB83;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.monsieurMadame
+{
+	justify-content: right;
+}
+
+.section-Miracle fieldset
+{
+	margin: auto;
+	margin-bottom: 30px;
+	max-width:600px;
+	min-width: 300px;
+	border-radius: 20px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+
+}
+
+/*Image paiement*/
+.justepaiement form img {
+	width: 40%;
+	}
+
+/*Point d'intérrogation image info Bull*/
+.intero {
+	width: 3.5%;
+	height: 3.5%;
+	margin-left: 2%;
+	display: none;
+	}
+
+.intero:hover {
+	width: 4%;
+	height: 4%;
+	margin-left: 2%;
+	} 
+
+
+/*Div des img info bull*/
+.div-form {
+
+	display: flex;
+	align-items: center;
+	margin: 5px 0 15px 0;
+	}
+
+/*Bulle*/
+.class-tooltip {
+	position: absolute;
+	background: white;
+	color: #E7BB83;
+	border-radius: 3px;
+	font-size: 0.8em;
+	border: 1px #E7BB83 solid;
+	max-width: 400px;
+	padding: 0.4%;
+	opacity: 1;
+	}
+
+
+/*Propriété du bouton de validation */
+
+.section-Miracle input[type=submit]
+{
+	text-decoration: none;
+	color: white;
+	background: #E7BB83;
+	padding: 9px 50px  9px 50px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 1em;
+	text-transform: uppercase;
+	transition: border-radius 0.5s;
+}
+
+.section-Miracle input[type=submit]:hover{
+	border-radius: 15px;
+}
+
+.droite
+{
+	text-align: right;
+}
+
+
+/*Rendre responsive */ 
+
+@media all and (max-device-width: 800px)
+{
+
+	.section-Miracle body
+	{
+		width: 80%;
+		margin: auto;
+		background: #E7BB83;
+		margin-top: 10%;
+	}
+	
+	.section-Miracle
+	{
+		width: 100%;
+		margin: auto;
+	}
+
+	.banniere
+	{
+		display: none;
+	}
+
+	.formulaire
+	{
+		width:100%;
+		margin:auto;
+	}
+
+	.section-Miracle fieldset
+	{
+		max-width:100%;
+	}
+
+	.section-Miracle form p
+	{
+		flex-direction: column;
+		width: 70%;
+	}
+
+	.section-Miracle form
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
